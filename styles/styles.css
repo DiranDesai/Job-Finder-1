@@ -276,6 +276,9 @@ main .sidebar li span{
 }
 
 @media(max-width: 872px){
+    main .container.grid{
+        grid-template-columns: 1fr;
+    }
     .search-header .grid.grid-4{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -298,9 +301,6 @@ main .sidebar li span{
 @media(max-width: 810px){
     header ul a{
         padding: 10px;
-    }
-    main .container.grid{
-        grid-template-columns: 2fr 4fr;
     }
 
     .jobs .grid.grid-3{
