@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <!-- <link href="bootstrap-5/css/bootstrap.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Learning Web Development</title>
+  </head>
+  <body>
+    <header>
+      <div class="container flex space-b">
+        <div class="logo flex">
+          <i class="material-icons">healing</i>
+          <h2>Finder</h2>
+        </div>
+        <ul class="flex">
+          <li><a href="#">Looking For</a></li>
+          <li><a href="#">Hiring</a></li>
+          <li class="flex">
+            <a href="#"><i class="material-icons">map</i>Lusaka</a>
+          </li>
+        </ul>
+        <div class="profile flex">
+          <img src="images/fr-08.jpg" alt="" />
+          <div class="profile-content">
+            <h3>Diran Sai</h3>
+            <p>Looking for</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="search-header">
+      <div class="container grid grid-4">
+        <div class="form-group field-container">
+          <i class="material-icons">search</i>
+          <input type="text" placeholder="Enter Field" />
+        </div>
+        <div class="form-group flex">
+          <i class="material-icons">turned_in_not</i>
+          <select>
+            <option value="Enter Location" selected>Enter Location</option>
+            <option value="zambia">Zambia</option>
+            <option value="ghana">Ghana</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select>
+            <option value="Experience" selected>Experience</option>
+            <option value="2">2 Years</option>
+            <option value="5">5 Years</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select>
+            <option value="per month" selected>Per Month</option>
+            <option value="week">Per week</option>
+            <option value="year">Per year</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <main>
+      <div class="container grid">
+        <div class="sidebar">
+          <h2 class="heading">Details</h2>
+          <div>
+            <h3>Schedule</h3>
+            <ul>
+              <li>
+                <input type="checkbox" />
+                <span>Full time</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Part time</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Project work</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Volunteering</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Internship</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Employment</h3>
+            <ul>
+              <li>
+                <input type="checkbox" />
+                <span>Full day</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Shift work</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Flexible schedule</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Distant work</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Shift method</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Professional level</h3>
+            <ul>
+              <li>
+                <input type="checkbox" />
+                <span>Trainee level</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Junior level</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Middle level</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Senior level</span>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <span>Director level</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <section class="jobs">
+            <h2 class="heading">Recomended Jobs</h2>
+            <div class="grid grid-3">
+                <div class="job-card apple">
+                    <div class="job-header flex space-b">
+                        <span class="job-logo"><i class="fab fa-apple"></i>
+                        </span>
+                        <span>23 January</span>
+                    </div>
+                    <div class="job-type flex space-b">
+                        <h3>UX Designer</h3>
+                        <span>10 views</span>
+                    </div>
+                    <div class="tags">
+                        <span>Full time</span>
+                    </div>
+                    <h4>Lagos, Nigeria</h4>
+                    <p>Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators...</p>
+                    <div class="job-buttons">
+                        <button>Apply</button>
+                        <button>Contacts</button>
+                    </div>
+                </div>
+                <div class="job-card facebook">
+                    <div class="job-header flex space-b">
+                        <span class="job-logo"><i class="fab fa-facebook"></i>
+                        </span>
+                        <span>23 January</span>
+                    </div>
+                    <div class="job-type flex space-b">
+                        <h3>Web Developer</h3>
+                        <span>10 views</span>
+                    </div>
+                    <div class="tags">
+                        <span>Full time</span>
+                    </div>
+                    <h4>Cupertino, Carifonia</h4>
+                    <p>Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators...</p>
+                    <div class="job-buttons">
+                        <button>Apply</button>
+                        <button>Contacts</button>
+                    </div>
+                </div>
+                <div class="job-card ebay">
+                    <div class="job-header flex space-b">
+                        <span class="job-logo"><i class="fab fa-ebay"></i>
+                        </span>
+                        <span>23 January</span>
+                    </div>
+                    <div class="job-type flex space-b">
+                        <h3>Machine Expert</h3>
+                        <span>10 views</span>
+                    </div>
+                    <div class="tags">
+                        <span>Full time</span>
+                    </div>
+                    <h4>Cupertino, Carifonia</h4>
+                    <p>Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators...</p>
+                    <div class="job-buttons">
+                        <button>Apply</button>
+                        <button>Contacts</button>
+                    </div>
+                </div>
+                <div class="job-card apple">
+                    <div class="job-header flex space-b">
+                        <span class="job-logo"><i class="fab fa-apple"></i>
+                        </span>
+                        <span>23 January</span>
+                    </div>
+                    <div class="job-type flex space-b">
+                        <h3>UX Designer</h3>
+                        <span>10 views</span>
+                    </div>
+                    <div class="tags">
+                        <span>Full time</span>
+                    </div>
+                    <h4>Cupertino, Carifonia</h4>
+                    <p>Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators...</p>
+                    <div class="job-buttons">
+                        <button>Apply</button>
+                        <button>Contacts</button>
+                    </div>
+                </div>
+                <div class="job-card dribbble">
+                    <div class="job-header flex space-b">
+                        <span class="job-logo"><i class="fab fa-dribbble"></i>
+                        </span>
+                        <span>23 January</span>
+                    </div>
+                    <div class="job-type flex space-b">
+                        <h3>Web Developer</h3>
+                        <span>10 views</span>
+                    </div>
+                    <div class="tags">
+                        <span>Full time</span>
+                    </div>
+                    <h4>Ghana</h4>
+                    <p>Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators...</p>
+                    <div class="job-buttons">
+                        <button>Apply</button>
+                        <button>Contacts</button>
+                    </div>
+                </div>
+                <div class="job-card edge">
+                    <div class="job-header flex space-b">
+                        <span class="job-logo"><i class="fab fa-edge"></i>
+                        </span>
+                        <span>23 January</span>
+                    </div>
+                    <div class="job-type flex space-b">
+                        <h3>Mongo DB</h3>
+                        <span>10 views</span>
+                    </div>
+                    <div class="tags">
+                        <span>Full time</span>
+                    </div>
+                    <h4>Lusaka, Zambia</h4>
+                    <p>Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators...</p>
+                    <div class="job-buttons">
+                        <button>Apply</button>
+                        <button>Contacts</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
