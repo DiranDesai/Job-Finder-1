@@ -290,6 +290,9 @@ main .sidebar li span{
     .search-header input, .search-header select{
         padding: 1rem;
     }
+    main .container.grid{
+        grid-template-columns: repeat(1fr, auto);
+    }
 }
 
 @media(max-width: 810px){
