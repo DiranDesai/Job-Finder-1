@@ -291,7 +291,7 @@ main .sidebar li span{
         padding: 1rem;
     }
     main .container.grid{
-        grid-template-columns: repeat(1fr, auto);
+        grid-template-columns: 1fr;
     }
 }
 
